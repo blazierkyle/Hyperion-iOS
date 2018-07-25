@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2509776E2108EAA6009050AB /* HYPEnvironmentPluginMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 250977682108EAA6009050AB /* HYPEnvironmentPluginMenuItem.m */; };
+		2509776F2108EAA6009050AB /* HYPEnvironmentPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 250977692108EAA6009050AB /* HYPEnvironmentPlugin.m */; };
+		250977702108EAA6009050AB /* HYPEnvironmentPluginModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2509776D2108EAA6009050AB /* HYPEnvironmentPluginModule.m */; };
+		256697F12108FBDE00C6D7B3 /* HyperionEnvironmentToggle.plist in Resources */ = {isa = PBXBuildFile; fileRef = 256697F02108FBDE00C6D7B3 /* HyperionEnvironmentToggle.plist */; };
+		256697F32108FC6F00C6D7B3 /* HYPEnvironmentConfigConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 256697F22108FC6F00C6D7B3 /* HYPEnvironmentConfigConstants.m */; };
 		49437DDD1FCCF29E00F4F2A5 /* WTASlowAnimatonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49437DDC1FCCF29E00F4F2A5 /* WTASlowAnimatonsViewController.m */; };
 		49560CCC1FB153A000B7E930 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49560CCB1FB153A000B7E930 /* AVFoundation.framework */; };
 		49560CCE1FB153DB00B7E930 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49560CCD1FB153DB00B7E930 /* AVKit.framework */; };
@@ -45,6 +50,15 @@
 /* Begin PBXFileReference section */
 		180B4FACB665340F4DC11DE1 /* Pods-HyperioniOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperioniOS_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HyperioniOS_Tests/Pods-HyperioniOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		195D0D548733E8445D11CB7E /* Pods_HyperioniOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperioniOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		250977682108EAA6009050AB /* HYPEnvironmentPluginMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPEnvironmentPluginMenuItem.m; sourceTree = "<group>"; };
+		250977692108EAA6009050AB /* HYPEnvironmentPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPEnvironmentPlugin.m; sourceTree = "<group>"; };
+		2509776A2108EAA6009050AB /* HYPEnvironmentPluginModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPEnvironmentPluginModule.h; sourceTree = "<group>"; };
+		2509776B2108EAA6009050AB /* HYPEnvironmentPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPEnvironmentPlugin.h; sourceTree = "<group>"; };
+		2509776C2108EAA6009050AB /* HYPEnvironmentPluginMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPEnvironmentPluginMenuItem.h; sourceTree = "<group>"; };
+		2509776D2108EAA6009050AB /* HYPEnvironmentPluginModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPEnvironmentPluginModule.m; sourceTree = "<group>"; };
+		256697EF2108F9B500C6D7B3 /* HYPEnvironmentConfigConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYPEnvironmentConfigConstants.h; sourceTree = "<group>"; };
+		256697F02108FBDE00C6D7B3 /* HyperionEnvironmentToggle.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HyperionEnvironmentToggle.plist; sourceTree = "<group>"; };
+		256697F22108FC6F00C6D7B3 /* HYPEnvironmentConfigConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYPEnvironmentConfigConstants.m; sourceTree = "<group>"; };
 		3C8812ACA4E888E461B387C7 /* Pods-HyperioniOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperioniOS_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HyperioniOS_Example/Pods-HyperioniOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		49437DDB1FCCF29E00F4F2A5 /* WTASlowAnimatonsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTASlowAnimatonsViewController.h; sourceTree = "<group>"; };
 		49437DDC1FCCF29E00F4F2A5 /* WTASlowAnimatonsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTASlowAnimatonsViewController.m; sourceTree = "<group>"; };
@@ -112,6 +126,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		250977672108EAA6009050AB /* Environment Toggle */ = {
+			isa = PBXGroup;
+			children = (
+				2509776B2108EAA6009050AB /* HYPEnvironmentPlugin.h */,
+				250977692108EAA6009050AB /* HYPEnvironmentPlugin.m */,
+				2509776A2108EAA6009050AB /* HYPEnvironmentPluginModule.h */,
+				2509776D2108EAA6009050AB /* HYPEnvironmentPluginModule.m */,
+				2509776C2108EAA6009050AB /* HYPEnvironmentPluginMenuItem.h */,
+				250977682108EAA6009050AB /* HYPEnvironmentPluginMenuItem.m */,
+				256697EF2108F9B500C6D7B3 /* HYPEnvironmentConfigConstants.h */,
+				256697F02108FBDE00C6D7B3 /* HyperionEnvironmentToggle.plist */,
+				256697F22108FC6F00C6D7B3 /* HYPEnvironmentConfigConstants.m */,
+			);
+			path = "Environment Toggle";
+			sourceTree = "<group>";
+		};
 		49F68E891FCBBD6F0098E49D /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				49F68E891FCBBD6F0098E49D /* Views */,
+				250977672108EAA6009050AB /* Environment Toggle */,
 				6003F59C195388D20070C39A /* WTAAppDelegate.h */,
 				6003F59D195388D20070C39A /* WTAAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -242,7 +273,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				C3D216763CD4FB2B89CBF5F5 /* [CP] Embed Pods Frameworks */,
-				B2CB353B75D96163C048D2E9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,8 +291,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				352BC718222B853381B0CA3B /* [CP] Embed Pods Frameworks */,
-				6A0A8E232E0EB464ECEF8AFD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -316,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				256697F12108FBDE00C6D7B3 /* HyperionEnvironmentToggle.plist in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				49F68E8E1FCBBD9D0098E49D /* WTAPluginTableViewCell.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
@@ -335,36 +364,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		352BC718222B853381B0CA3B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HyperioniOS_Tests/Pods-HyperioniOS_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6A0A8E232E0EB464ECEF8AFD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HyperioniOS_Tests/Pods-HyperioniOS_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		90C06F2D077DC201D090EFC3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -380,22 +379,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B2CB353B75D96163C048D2E9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HyperioniOS_Example/Pods-HyperioniOS_Example-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C3D216763CD4FB2B89CBF5F5 /* [CP] Embed Pods Frameworks */ = {
@@ -405,11 +389,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HyperioniOS_Example/Pods-HyperioniOS_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HyperioniOS/HyperioniOS.framework",
+				"${BUILT_PRODUCTS_DIR}/HyperioniOS/HyperionCore.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HyperioniOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HyperionCore.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -431,7 +415,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -443,8 +427,12 @@
 			files = (
 				49437DDD1FCCF29E00F4F2A5 /* WTASlowAnimatonsViewController.m in Sources */,
 				6003F59E195388D20070C39A /* WTAAppDelegate.m in Sources */,
+				250977702108EAA6009050AB /* HYPEnvironmentPluginModule.m in Sources */,
+				2509776F2108EAA6009050AB /* HYPEnvironmentPlugin.m in Sources */,
 				49F68E8D1FCBBD9D0098E49D /* WTAPluginTableViewCell.m in Sources */,
+				256697F32108FC6F00C6D7B3 /* HYPEnvironmentConfigConstants.m in Sources */,
 				6003F5A7195388D20070C39A /* WTLandingPage.m in Sources */,
+				2509776E2108EAA6009050AB /* HYPEnvironmentPluginMenuItem.m in Sources */,
 				49F68E881FCBBB6C0098E49D /* WTAThisVersionViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
